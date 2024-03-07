@@ -1,0 +1,174 @@
+html, body{
+    background-color: #020202;
+    color: #020202;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #7F5539;
+    min-width: 100vw;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 15vw;
+    max-height: 15vh;
+}
+
+header h1{
+    font-size: 2em;
+}
+
+header p{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 60vh;
+    padding: 1em;
+}
+
+main section{
+    margin: 3vw 0 3vw 5vw;
+    min-height: 8vh;
+}
+
+section h2{
+    color: #FEFEFE;
+}
+
+section ul{
+    padding-left: 1.5em;
+}
+
+section ul li{
+    color: #FEFEFE;
+    list-style: none;
+    margin: .3em;
+    cursor: pointer;
+}
+
+section ul li a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: none; /* no underline */
+    position: relative;
+}
+
+section ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: #FEFEFE;
+    height: 1.5px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:hover:after{
+    width: 100%;
+}
+
+#internet-icon{
+    min-height: 1.5em;
+    margin: auto 0;
+    display: flex;
+}
+/*
+
+html, body{
+    background-color: #020202;
+    color: #020202;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #7F5539;
+    min-width: 100vw;
+    min-height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 15vw;
+    max-height: 15vh;
+}
+
+header h1{
+    font-size: 2em;
+}
+
+header p{
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 60vh;
+    padding: 1em;
+}
+
+main section{
+    margin: 3vw 0 3vw 5vw;
+    min-height: 8vh;
+}
+
+section h2{
+    color: #FEFEFE;
+}
+
+section ul{
+    padding-left: 1.5em;
+}
+
+section ul li{
+    color: #FEFEFE;
+    list-style: none;
+    margin: .3em;
+}
+
+section ul li a{
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+
+*/
